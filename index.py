@@ -1,3 +1,22 @@
 print('Hello Ikram')
- 
 print('Jahid')
+p = "ikram"
+print(p.upper())
+pt = "IKRAM"
+print(pt.islower())
+print(pt.lower().isupper())
+print(len(p))
+print(p[0])
+print(p[1])
+print(p[2])
+print(p[3])
+print(p[4])
+print(p.index('i'))
+print(p.index('k'))
+print(p.index('r'))
+print(p.index('a'))
+print(p.index('ram'))
+l = p.replace("ikram", "lol")
+print(p)
+
+print(l)
